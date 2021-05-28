@@ -7,22 +7,28 @@ body {
   background-color: #3c516c;
 }
 .container {
-  width: 100vw;
-  height: 100vh;
-
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bold;
-  font-size: 20px;
-
-  display: grid;
-
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-
-  gap: 10px;
-
+  background-color: aqua;
   padding: 10px;
-  box-sizing: border-box;
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.one {
+  background-color: darkgoldenrod;
+  grid-area: span;
+}
+.two {
+  background-color: blueviolet;
+  grid-area: span;
+}
+.three {
+  background-color: darkgreen;
+  grid-area: span;
+}
+.four {
+  background-color: forestgreen;
+  grid-area: span;
 }
 
 .container div {
