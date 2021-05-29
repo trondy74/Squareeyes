@@ -4,73 +4,67 @@
 }
 .container {
   display: grid;
-  height: 80vh;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas:
-    "main main main sidebar"
-    "main main main sidebar"
+    "content content content3 sidebar"
+    "content content content3 sidebar"
     "content1 content2 content3 sidebar"
     "content4 content5 content6 sidebar";
   grid-gap: 0.2rem;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 800;
-  text-transform: uppercase;
-  font-size: 12px;
-  color: #004d40;
+  font-size: 20px;
+  color: #feffff;
   text-align: center;
 }
 
-main {
-  grid-area: main;
+#content {
+  grid-area: content;
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
 }
 
 #content1 {
-  background-color: #0a848ffd;
   grid-area: content1;
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
 }
 
 #content2 {
-  background-color: #19c48b;
   grid-area: content2;
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
 }
 
 #content3 {
-  background-color: #e7e55e;
+  background-color: #c58724fd;
   grid-area: content3;
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
 }
 
 #content4 {
-  background-color: #f56d6d;
   grid-area: content4;
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
 }
 
 #content5 {
-  background-color: #e72abe;
   grid-area: content5;
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
 }
 
 #content6 {
-  background-color: #5e5cd4;
+  background-color: #c30c0cfd;
   grid-area: content6;
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
 }
 
 #sidebar {
-  background-color: #1677d3;
   grid-area: sidebar;
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
@@ -80,13 +74,13 @@ main {
     grid-template-columns: 1fr;
     grid-template-rows: 2.2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
-      "main"
-      "sidebar"
+      "content3"
+      "content"
       "content1"
       "content2"
-      "content3"
+      "content6"
       "content4"
       "content5"
-      "content6";
+      "sidebar";
   }
 }
