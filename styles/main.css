@@ -6,35 +6,7 @@
 body {
   background-color: #3c516c;
 }
-.container {
-  background-color: rgb(0, 0, 0);
-  padding: 10px;
-  display: grid;
-  height: 100vh;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-}
-.one {
-  background-color: darkgoldenrod;
-  grid-area: span;
-}
-.two {
-  background-color: blueviolet;
-  grid-area: span;
-}
-.three {
-  background-color: darkgreen;
-  grid-area: span;
-}
-.four {
-  background-color: forestgreen;
-  grid-area: span;
-}
 
-.container div {
-  padding: 10px;
-  border: 1px solid #000000;
-}
 .navbar {
   display: flex;
   position: relative;
@@ -123,13 +95,7 @@ body {
   .navbar-links.active {
     display: flex;
   }
-  .heading1 {
-    margin: 1rem;
-  }
-}
-.button-start {
-  cursor: pointer;
-}
+  
 .footer {
   padding-bottom: 20px;
   padding-top: 20px;
@@ -141,7 +107,4 @@ body {
   color: white;
   text-align: center;
 }
-.frontpage-image {
-  max-width: 30%;
-  height: auto;
-}
+
