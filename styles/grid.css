@@ -39,7 +39,7 @@
 }
 
 #content3 {
-  background-color: #c58724fd;
+  background-color: #620303fd;
   grid-area: content3;
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
@@ -58,7 +58,7 @@
 }
 
 #content6 {
-  background-color: #c30c0cfd;
+  background-color: #2051b9fd;
   grid-area: content6;
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
