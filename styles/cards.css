@@ -16,8 +16,8 @@ body {
 
 .grid {
   display: grid;
-  width: 114em;
-  grid-gap: 6rem;
+  justify-content: space-evenly;
+  gap: 6rem;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   align-items: center;
   justify-content: center;
@@ -103,7 +103,18 @@ body {
 }
 @media only screen and (max-width: 550px) {
   .grid-item {
-    width: 35%;
+    width: 70%;
+    height: 80%;
+    padding: 0;
+    padding-bottom: 40px;
+  }
+  .card-img {
+    padding: 20px;
+    padding-bottom: 0px;
+    display: block;
+    width: 85%;
+    height: 85%;
+    object-fit: cover;
   }
   .grid {
     grid-template-columns: 1fr;
