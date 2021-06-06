@@ -37,7 +37,7 @@ body {
 
 .grid-item:hover {
   transform: translateY(0.5%);
-  box-shadow: 0 14rem 18rem #fffffff6;
+  box-shadow: 0 14rem 18rem #d81a00f6;
 }
 
 .card-img {
