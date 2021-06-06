@@ -25,6 +25,7 @@ body {
   align-items: center;
   background-color: #000000;
   color: white;
+  font-size: large;
 }
 .logo {
   display: flex;
