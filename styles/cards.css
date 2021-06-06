@@ -16,6 +16,7 @@ body {
 
 .grid {
   display: grid;
+  padding: 5%;
   justify-content: space-evenly;
   gap: 6rem;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
