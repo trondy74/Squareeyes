@@ -61,6 +61,7 @@ body {
 }
 
 .toggle-button {
+  margin: 20px;
   position: absolute;
   top: 0.75rem;
   right: 1rem;
