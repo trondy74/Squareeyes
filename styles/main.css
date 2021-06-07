@@ -68,8 +68,8 @@ body {
   display: none;
   flex-direction: column;
   justify-content: space-between;
-  width: 30px;
-  height: 21px;
+  width: 28px;
+  height: 28px;
 }
 
 .toggle-button .bar {
@@ -97,6 +97,9 @@ body {
   .navbar-links ul {
     width: 100%;
     flex-direction: column;
+    font-size: 20px;
+    line-height: 50px;
+    text-decoration: underline;
   }
 
   .navbar-links ul li {
