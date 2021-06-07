@@ -40,12 +40,13 @@ body {
   transform: translateY(0.5%);
   box-shadow: 0 14rem 18rem #d81a00f6;
 }
+
 .card {
-  display: flexbox;
-  padding: -10%;
-  margin: 0%;
-  position: static;
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 calc(25% - 1em);
 }
+
 .card-img {
   padding: 3rem;
   display: block;
