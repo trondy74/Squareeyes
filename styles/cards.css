@@ -22,7 +22,7 @@ body {
 }
 
 .grid-item {
-  background-color: rgb(188, 240, 245);
+  background-color: rgb(183, 185, 185);
   border-radius: 0.4rem;
   overflow: hidden;
   /*box-shadow: 0 3rem 6rem #000000;*/
@@ -82,7 +82,7 @@ body {
   font-size: 2rem;
   text-align: center;
   color: #ffffff;
-  background-color: #5c7ae6;
+  background-color: #3049a1;
   border: none;
   border-radius: 0.4rem;
   transition: 0.2s;

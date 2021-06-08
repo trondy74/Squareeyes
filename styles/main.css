@@ -8,35 +8,38 @@ html {
 body {
   background-color: #000000;
   font-family: "Montserrat", sans-serif;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+}
+.btn-group button {
+  background-color: #5b5c5f;
+  border: 1px solid #332e2e;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 24px;
+  cursor: pointer;
+  margin-left: 25%;
+  float: left;
+  border-radius: 5px;
 }
 
-.article {
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  margin: -1em auto;
-  padding: 0.5em 1em;
-  max-width: 820px;
-  font-size: 2em;
-  line-height: 1.25;
-  padding-top: 30px;
-  padding-bottom: 200px;
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
 }
-.article-text {
-  margin-top: 25px;
-  font-size: large;
+
+.btn-group button:hover {
+  background-color: #b11421;
 }
 
 @media (max-width: 650px) {
-  .newsrow {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-  }
-  .login-form {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr, 1fr;
+  .btn-group button {
+    background-color: #5b5c5f;
+    border: 1px solid #332e2e;
+    color: #ffffff;
+    padding: 14px 19px;
+    cursor: pointer;
+    margin-left: 17%;
+    float: left;
+    border-radius: 5px;
   }
 }
