@@ -107,11 +107,13 @@ body {
   }
   .first,
   .second {
-    width: 300px;
+    width: 270px;
     height: 300px;
+    padding: 1rem;
+    vertical-align: top;
   }
   .h1signup {
-    font-size: 26px;
+    font-size: 20px;
   }
   .title {
     font-size: 20px;
