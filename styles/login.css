@@ -12,7 +12,9 @@ body {
   font-family: "Montserrat", sans-serif;
   min-height: 100vh;
 }
-
+.h1signup {
+  text-align: center;
+}
 .title,
 .subheading {
   color: white;
@@ -22,56 +24,61 @@ body {
 }
 
 .title {
-  font-size: 30px;
-  font-weight: 800;
+  font-size: 26px;
+  font-weight: 300;
 }
 
 .subheading {
   margin-top: 0;
-  font-size: 30px;
-  font-weight: 800;
+  font-size: 26px;
+  font-weight: 300;
 }
 
 .button {
   all: unset;
   cursor: pointer;
   display: inline-block;
-  background: white;
+  background: rgb(5, 151, 13);
   padding: 0.5em 1.75em;
-  color: #000000b3;
+  color: #000000;
   font-weight: 300;
   border-radius: 25px;
+  font-size: 16px;
 }
 
 .login-form {
   display: grid;
-  grid-template-rows: repeat(2, auto);
-  grid-template-columns: 50% minmax(500px, 1fr) 3em;
-  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  margin: 3rem;
+  gap: 3rem;
+  margin-bottom: 200px;
 }
 
 .first {
+  order: 2;
   background-color: rgb(158, 29, 35);
-  padding: 3rem;
+  padding: 2rem;
   width: 350px;
-  height: 360px;
+  height: 340px;
   border-radius: 25px;
 }
 
 .second {
+  order: 1;
   background-color: rgb(18, 68, 148);
-  padding: 3rem;
+  padding: 2rem;
   width: 350px;
-  height: 360px;
+  height: 340px;
   border-radius: 25px;
 }
 
 .form {
-  margin: 1.5em 0 0;
+  margin: 1rem;
 }
 
 .form__label {
   display: flex;
+  font-size: medium;
 }
 
 .form__text {
@@ -80,20 +87,36 @@ body {
   margin: 0.25em 0 1em;
   background: rgb(255, 254, 254);
   width: 12em;
-  max-height: 1em;
+  max-height: 0.5em;
   padding: 0.6em;
   color: black;
 }
 
 .form__checkbox {
+  margin-left: 1.5em;
   margin-right: 0.5em;
 }
 @media (max-width: 650px) {
   .login-form {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr, 1fr;
+    grid-template-rows: 1fr 1fr;
     margin-bottom: 250px;
     margin-top: 50px;
     align-self: center;
+    font-size: small;
+  }
+  .first,
+  .second {
+    width: 300px;
+    height: 300px;
+  }
+  .h1signup {
+    font-size: 26px;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .subheading {
+    font-size: 20px;
   }
 }
