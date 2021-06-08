@@ -8,32 +8,28 @@ html {
 body {
   background-color: #000000;
   font-family: "Montserrat", sans-serif;
-  /*display: flex;*/
-  justify-content: center;
-  align-items: center;
   min-height: 100vh;
 }
 
 .grid {
   display: grid;
-  padding: 5%;
+  margin-bottom: 100px;
+  margin-top: 100px;
   justify-content: space-evenly;
-  gap: 6rem;
+  gap: 4rem;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  align-items: center;
-  justify-content: center;
   align-items: center;
 }
 
 .grid-item {
-  background-color: #fff;
+  background-color: rgb(188, 240, 245);
   border-radius: 0.4rem;
   overflow: hidden;
-  box-shadow: 0 3rem 6rem #0000001a;
+  /*box-shadow: 0 3rem 6rem #000000;*/
   cursor: pointer;
-  transition: 0.2s;
-  margin-top: 40px;
-  margin-left: 40px;
+  transition: 0.5s;
+  margin-top: 5%;
+  margin-left: 15%;
 }
 
 .grid-item:hover {
@@ -101,7 +97,7 @@ body {
 
 .card-btn:hover,
 .card-btn:active {
-  background-color: #c2cffc;
+  background-color: #d81a00f6;
 }
 
 .card-btn:hover span,
@@ -110,22 +106,22 @@ body {
 }
 @media only screen and (max-width: 550px) {
   .grid-item {
-    width: 70%;
-    height: 80%;
-    padding: 0;
+    width: 75%;
     padding-bottom: 40px;
+    margin-bottom: 10em;
   }
   .card-img {
+    align-self: center;
     padding: 20px;
     padding-bottom: 0px;
     display: block;
-    width: 85%;
-    height: 85%;
+    width: 75%;
+    height: auto;
     object-fit: cover;
   }
   .grid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    row-gap: 1rem;
+    gap: 1rem;
   }
 }
