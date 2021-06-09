@@ -50,7 +50,7 @@
   </nav>
 
   <div class="h1signup">
-    <h1>Start Today!</h1>
+    <h1>Normal Account</h1>
 </div>
   
 
@@ -58,13 +58,14 @@
       <div class="first">
         <h2 class="title">Create your account</h2>
         
-        <form class="form" action="">
+        <form class="form" action=""></form>
           <label class="form__label" for="email">Your Email</label>
           <input class="form__text" placeholder="Enter Mail" type="email" id="email" name="email">
           <label class="form__label" for="password">Password</label>
           <input class="form__text" placeholder="Enter Password" type="password" id="password" name="password">
           
-          <button class="button">Sign up</button>
+          <form action="profile.html">
+            <input type="submit" value="Submit" id="signup" />
           <label>
               <input type="checkbox" name="accept"> <span class="agreement">Agreement</span>
               </label>     
@@ -75,14 +76,15 @@
             <div class="second">
               <h2 class="subheading">Login</h2>
                 
-              <form class="form" action="">
+              <form class="form" action=""></form>
                 <label class="form__label" for="Username">Username</label>
-                <input class="form__text" placeholder="Enter Username" id="username" name="username" required>
+                <input class="form__text" placeholder="Enter Username" id="username" name="username">
 
                 <label class="form__label" for="Password">Password</label>
-                <input class="form__text"  placeholder="Enter Password"  id="password" name="password" required>
+                <input class="form__text"  placeholder="Enter Password"  id="password" name="password">
 
-                <button class="button">Login</button>
+                <form action="profile.html">
+                  <input type="submit" value="Submit" id="login" />
                 <label>
                 <input type="checkbox" name="remember"> <span class="rememberbox">Remember me</span>
                 </label>

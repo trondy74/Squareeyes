@@ -28,8 +28,8 @@ body {
   /*box-shadow: 0 3rem 6rem #000000;*/
   cursor: pointer;
   transition: 0.5s;
-  margin-top: 5%;
-  margin-left: 15%;
+  max-width: 340px;
+  margin: 5% auto 0 auto;
 }
 
 .card {
