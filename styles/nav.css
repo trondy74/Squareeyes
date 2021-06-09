@@ -84,7 +84,10 @@ body {
   text-align: center;
 }
 /*----------------- separating the code -------*/
-
+@media (max-width: 900px) {
+  .navbar-links {
+    font-size: 16px;
+  }
 @media (max-width: 650px) {
   .navbar {
     flex-direction: column;

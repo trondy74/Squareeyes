@@ -1,122 +1,122 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,600&display=swap");
 
 html {
-  box-sizing: border-box;
-  font-size: 62.5%;
+	box-sizing: border-box;
+	font-size: 62.5%;
 }
 
 body {
-  background-color: #000000;
-  font-family: "Montserrat", sans-serif;
-  min-height: 100vh;
+	background-color: #000000;
+	font-family: "Montserrat", sans-serif;
+	min-height: 100vh;
 }
 
 .grid {
-  display: grid;
-  margin-bottom: 100px;
-  margin-top: 100px;
-  justify-content: space-evenly;
-  gap: 4rem;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  align-items: center;
+	display: grid;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	justify-content: space-evenly;
+	gap: 4rem;
+	grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+	align-items: center;
 }
 
 .grid-item {
-  background-color: rgb(183, 185, 185);
-  border-radius: 0.4rem;
-  overflow: hidden;
-  /*box-shadow: 0 3rem 6rem #000000;*/
-  cursor: pointer;
-  transition: 0.5s;
-  max-width: 340px;
-  margin: 5% auto 0 auto;
+	background-color: #1d97e7;
+	border-radius: 0.4rem;
+	overflow: hidden;
+	/*box-shadow: 0 3rem 6rem #000000;*/
+	cursor: pointer;
+	transition: 0.5s;
+	max-width: 340px;
+	margin: 5% auto 0 auto;
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
-  flex: 0 1 calc(25% - 1em);
+	display: flex;
+	flex-direction: column;
+	flex: 0 1 calc(25% - 1em);
 }
 
 .card-img {
-  padding: 3rem;
-  display: block;
-  width: auto;
-  height: 400px;
-  object-fit: cover;
+	padding: 3rem;
+	display: block;
+	width: auto;
+	height: 400px;
+	object-fit: cover;
 }
 
 .card-content {
-  padding: 3rem;
+	padding: 3rem;
 }
 
 .card-header {
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  font-size: 3rem;
-  font-weight: 500;
-  color: #0d0d0d;
-  margin-bottom: 1.5rem;
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+	font-size: 3rem;
+	font-weight: 500;
+	color: #0d0d0d;
+	margin-bottom: 1.5rem;
 }
 
 .card-text {
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.6rem;
-  letter-spacing: 0.1rem;
-  line-height: 1.7;
-  color: #3d3d3d;
-  margin-bottom: 2.5rem;
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.6rem;
+	letter-spacing: 0.1rem;
+	line-height: 1.7;
+	color: #3d3d3d;
+	margin-bottom: 2.5rem;
 }
 
 .card-btn {
-  display: block;
-  width: 100%;
-  padding: 1.5rem;
-  font-size: 2rem;
-  text-align: center;
-  color: #ffffff;
-  background-color: #3049a1;
-  border: none;
-  border-radius: 0.4rem;
-  transition: 0.2s;
-  cursor: pointer;
-  letter-spacing: 0.1rem;
+	display: block;
+	width: 100%;
+	padding: 1.5rem;
+	font-size: 2rem;
+	text-align: center;
+	color: #ffffff;
+	background-color: #3049a1;
+	border: none;
+	border-radius: 0.4rem;
+	transition: 0.2s;
+	cursor: pointer;
+	letter-spacing: 0.1rem;
 }
 
 .card-btn span {
-  margin-left: 1rem;
-  transition: 0.2s;
+	margin-left: 1rem;
+	transition: 0.2s;
 }
 
 .card-btn:hover,
 .card-btn:active {
-  background-color: #d81a00f6;
+	background-color: #d81a00f6;
 }
 
 .card-btn:hover span,
 .card-btn:active span {
-  margin-left: 1.5rem;
+	margin-left: 1.5rem;
 }
 @media only screen and (max-width: 550px) {
-  .grid-item {
-    width: 75%;
-    padding-bottom: 40px;
-    margin-bottom: 10em;
-  }
-  .card-img {
-    align-self: center;
-    padding: 20px;
-    padding-bottom: 0px;
-    display: block;
-    width: 75%;
-    height: auto;
-    object-fit: cover;
-  }
-  .grid {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 1rem;
-  }
+	.grid-item {
+		width: 75%;
+		padding-bottom: 40px;
+		margin-bottom: 10em;
+	}
+	.card-img {
+		align-self: center;
+		padding: 20px;
+		padding-bottom: 0px;
+		display: block;
+		width: 75%;
+		height: auto;
+		object-fit: cover;
+	}
+	.grid {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+		gap: 1rem;
+	}
 }
