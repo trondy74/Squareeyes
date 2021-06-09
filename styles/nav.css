@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,600&display=swap");
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #000000;
+  font-family: "Montserrat", sans-serif;
+}
 .navbar {
   display: flex;
   position: relative;
@@ -5,7 +16,7 @@
   align-items: center;
   background-color: #000000;
   color: white;
-  font-size: large;
+  font-size: 22px;
 }
 .logo {
   display: flex;
@@ -34,8 +45,10 @@
   padding: 1rem;
 }
 
-.navbar-links li:hover {
-  background-image: radial-gradient(rgb(233, 14, 14) 30%, black 95%, black 30%);
+.navbar-links li:hover,
+.navbar-links.active {
+  background-color: #b11421;
+  border-radius: 5px;
 }
 
 .toggle-button {

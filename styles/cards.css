@@ -32,11 +32,6 @@ body {
   margin-left: 15%;
 }
 
-.grid-item:hover {
-  transform: translateY(0.5%);
-  box-shadow: 0 14rem 18rem #d81a00f6;
-}
-
 .card {
   display: flex;
   flex-direction: column;
