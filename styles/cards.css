@@ -13,11 +13,11 @@ body {
 
 .grid {
 	display: grid;
-	margin-bottom: 100px;
+	margin-bottom: 200px;
 	margin-top: 100px;
 	justify-content: space-evenly;
-	gap: 4rem;
-	grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+	gap: 3rem;
+	grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 	align-items: center;
 }
 
@@ -28,26 +28,27 @@ body {
 	/*box-shadow: 0 3rem 6rem #000000;*/
 	cursor: pointer;
 	transition: 0.5s;
-	max-width: 340px;
+	max-width: 240px;
 	margin: 5% auto 0 auto;
 }
 
 .card {
 	display: flex;
 	flex-direction: column;
-	flex: 0 1 calc(25% - 1em);
+	max-height: 650px;
+	max-width: 320px;
 }
 
 .card-img {
-	padding: 3rem;
 	display: block;
 	width: auto;
-	height: 400px;
-	object-fit: cover;
+	height: 349px;
+	margin-top: 2px;
+	object-fit: scale-down;
 }
 
 .card-content {
-	padding: 3rem;
+	padding: 1rem;
 }
 
 .card-header {
@@ -106,13 +107,11 @@ body {
 		margin-bottom: 10em;
 	}
 	.card-img {
-		align-self: center;
-		padding: 20px;
-		padding-bottom: 0px;
 		display: block;
-		width: 75%;
-		height: auto;
-		object-fit: cover;
+		width: auto;
+		height: 349px;
+		margin-top: 2px;
+		object-fit: scale-down;
 	}
 	.grid {
 		grid-template-columns: 1fr;

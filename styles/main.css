@@ -12,29 +12,35 @@ body {
 .h1slogan {
 	color: #1d97e7;
 	font-family: "Niconne", cursive;
-	font-size: 36px;
+	font-size: 46px;
 	text-align: center;
 }
-.btn-group button {
-	background-color: #3049a1;
-	border: 1px solid #5f5b5b;
+.btn-login {
+	position: relative;
+	background-color: #f55a5a;
+	border: 3px solid #5f5b5b;
+	color: #ffffff;
+	font-size: 20px;
+	width: 125px;
+	padding: 14px 19px;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-right: 20px;
+}
+.btn-producer {
+	position: relative;
+	background-color: #6381eb;
+	border: 3px solid #5f5b5b;
 	color: #ffffff;
 	font-size: 20px;
 	padding: 14px 19px;
 	cursor: pointer;
-	margin-left: 27%;
-	float: left;
 	border-radius: 5px;
-	margin-top: 50px;
 }
-#btn-login {
-	padding-left: 25px;
-	padding-right: 25px;
-}
-.btn-group:after {
-	content: "";
-	clear: both;
-	display: table;
+.topper {
+	display: grid;
+	place-items: center;
+	margin-top: 20px;
 }
 
 .btn-group button:hover {
@@ -43,11 +49,13 @@ body {
 
 @media (max-width: 650px) {
 	.btn-group button {
-		padding: 14px 19px;
-		cursor: pointer;
-		margin-left: 10%;
-		float: left;
-		border-radius: 5px;
+		margin-top: 25px;
+		width: fit-content;
+		height: fit-content;
+		font-size: 14px;
+	}
+	.topper {
+		margin-top: 20px;
 	}
 	.h1slogan {
 		font-size: 20px;

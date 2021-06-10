@@ -3,6 +3,7 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -20,7 +21,7 @@ body {
 }
 .logo {
   display: flex;
-  margin: 20px;
+  margin-right: 20px;
   cursor: pointer;
 }
 
@@ -70,25 +71,61 @@ body {
   border-radius: 10px;
 }
 .footer {
-  padding-bottom: 10px;
+  display: block;
+  place-items: center;
+  padding-bottom: 0px;
   padding-top: 10px;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 60px;
+  height: 100px;
   background-color: black;
   color: white;
   font-family: "Montserrat", sans-serif;
-  font-size: medium;
+  font-size: 10px;
   text-align: center;
 }
+
+h2 {
+  font-size: 20px;
+  color: rgb(88, 88, 238);
+}
+.gotop-btn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #ee3131;
+  bottom: 40px;
+  right: 50px;
+  border-radius: 20px;
+
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+}
+
 /*----------------- separating the code -------*/
-@media (max-width: 900px) {
+
+@media (max-width: 950px) {
   .navbar-links {
     font-size: 16px;
   }
-@media (max-width: 650px) {
+  .logo {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 200px;
+  }
+
+@media (max-width: 730px) {
+  .logo {
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 200px;
+  }
   .navbar {
     flex-direction: column;
     align-items: flex-start;
@@ -96,6 +133,8 @@ body {
 
   .toggle-button {
     display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
   }
 
   .navbar-links {
@@ -122,4 +161,5 @@ body {
   .navbar-links.active {
     display: flex;
   }
+
 }
