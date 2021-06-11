@@ -73,8 +73,6 @@ body {
 .footer {
   display: block;
   place-items: center;
-  padding-bottom: 0px;
-  padding-top: 10px;
   position: fixed;
   left: 0;
   bottom: 0;
