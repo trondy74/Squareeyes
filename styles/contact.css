@@ -1,0 +1,82 @@
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+.contact1 {
+	display: flex;
+	position: relative;
+	place-content: center;
+	margin: auto;
+	top: 50px;
+	width: 550px;
+	height: 370px;
+}
+
+.contact1 .left {
+	width: 50%;
+	background: #0b428a;
+	text-align: center;
+	color: #fff;
+}
+
+.contact1 .left img {
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.contact1 .right {
+	width: 50%;
+	text-align: center;
+	color: #fff;
+	background: rgb(236, 47, 47);
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	letter-spacing: 0.1rem;
+	line-height: 1.7;
+}
+.contact1 .right h1 {
+	font-size: 26px;
+	color: rgb(255, 255, 255);
+}
+.contact1 .right h4 {
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+}
+.contact1 .right h2 {
+	font-size: 26px;
+	color: rgb(255, 255, 255);
+}
+.btn-support {
+	position: relative;
+	background-color: #0f3de0;
+	border: 3px solid #ffffff;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 14px 19px;
+	cursor: pointer;
+	margin: 20px;
+	border-radius: 5px;
+}
+@media (max-width: 950px) {
+	.contact1 {
+		display: flex;
+		flex-direction: column;
+		top: 20rem;
+		width: 330px;
+		height: 770px;
+	}
+	.contact1 .left {
+		width: 50%;
+		width: auto;
+	}
+	.contact1 .right {
+		width: 50%;
+		width: 230px;
+		align-items: center;
+	}
+	.contact1 .left img {
+		padding: 0.2px;
+		width: 180px;
+	}
+}
