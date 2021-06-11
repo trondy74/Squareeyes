@@ -87,9 +87,9 @@ body {
   text-align: center;
 }
 
-h2 {
-  font-size: 20px;
-  color: rgb(88, 88, 238);
+.h2footer {
+  font-size: 16px;
+  color: #5b5be7;
 }
 .gotop-btn{
   position: fixed;
@@ -97,8 +97,8 @@ h2 {
   height: 50px;
   background: #ee3131;
   bottom: 40px;
-  right: 50px;
-  border-radius: 20px;
+  right: 20px;
+  border-radius: 25px;
 
   text-decoration: none;
   text-align: center;
