@@ -3,7 +3,7 @@ body {
 	font-family: "Montserrat", sans-serif;
 	min-height: 100vh;
 }
-.search-box{
+.search-box {
 	max-width: 475px;
 	height: 40px;
 	border-radius: 23px;
@@ -16,17 +16,16 @@ body {
 	margin-left: 10%;
 	padding-left: 15px;
 	display: inline-block;
-
 }
-.search-txt{
-border:15px;
-background: none;
-outline: none;
-padding: 0;
-color: white;
-font-size: 16px;
-line-height: 60px;
-width: 240px;
+.search-txt {
+	border: 15px;
+	background: none;
+	outline: none;
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	line-height: 60px;
+	width: 240px;
 }
 
 .grid {
@@ -72,8 +71,6 @@ width: 240px;
 	text-align: center;
 	font-size: 16px;
 	color: #0d0d0d;
-}
-
 }
 
 @media only screen and (max-width: 550px) {
