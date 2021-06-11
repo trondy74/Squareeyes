@@ -30,11 +30,6 @@ body {
 	padding: 10px;
 }
 
-.wrapper .left h2 {
-	font-size: 20px;
-	color: rgb(255, 255, 255);
-}
-
 .wrapper .right {
 	width: 50%;
 	text-align: center;
@@ -42,6 +37,8 @@ body {
 	background: rgb(236, 47, 47);
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
+	letter-spacing: 0.1rem;
+	line-height: 1.7;
 }
 .wrapper .right h1 {
 	font-size: 26px;
@@ -50,4 +47,19 @@ body {
 .wrapper .right h4 {
 	font-size: 18px;
 	color: rgb(255, 255, 255);
+}
+.wrapper .right h2 {
+	font-size: 26px;
+	color: rgb(255, 255, 255);
+}
+.btn-sales {
+	position: relative;
+	background-color: #0f3de0;
+	border: 3px solid #ffffff;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 14px 19px;
+	cursor: pointer;
+	margin: 20px;
+	border-radius: 5px;
 }
