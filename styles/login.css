@@ -39,8 +39,8 @@ body {
 	font-size: 14px;
 }
 
-#signup,
-#login {
+.signup,
+.login {
 	all: unset;
 	cursor: pointer;
 	display: inline-block;
