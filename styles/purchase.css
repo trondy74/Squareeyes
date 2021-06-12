@@ -59,9 +59,9 @@ body {
 	border: 3px solid #ffffff;
 	color: #ffffff;
 	font-size: 20px;
-	padding: 14px 19px;
+	padding: 5px 5px;
 	cursor: pointer;
-	margin: 20px;
+	margin: 10px;
 	border-radius: 5px;
 }
 @media (max-width: 650px) {
@@ -72,10 +72,24 @@ body {
 		top: 50px;
 		width: 350px;
 		display: flex;
+		max-height: 400px;
+	}
+	.wrapper .left {
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
+		padding: 0px;
+		width: 180px;
+		height: 400px;
+	}
+	.wrapper .right {
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
+		padding: 0px;
+		width: 180px;
+		height: 400px;
 	}
 	.wrapper .left img {
 		border-radius: 5px;
-		padding: 0px;
-		width: 180px;
+		height: auto;
 	}
 }
