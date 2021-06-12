@@ -9,6 +9,7 @@ html {
 body {
   background-color: #000000;
   font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
 }
 .navbar {
   display: flex;
@@ -73,7 +74,6 @@ body {
 .footer {
   display: block;
   place-items: center;
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -159,5 +159,4 @@ body {
   .navbar-links.active {
     display: flex;
   }
-
 }
