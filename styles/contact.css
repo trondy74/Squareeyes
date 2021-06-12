@@ -9,8 +9,8 @@ html {
 	place-content: center;
 	margin: auto;
 	top: 50px;
-	width: 550px;
-	height: 370px;
+	width: 650px;
+	height: 410px;
 }
 
 .contact1 .left {
@@ -62,21 +62,23 @@ html {
 	.contact1 {
 		display: flex;
 		flex-direction: column;
-		top: 20rem;
-		width: 330px;
+		margin: auto;
+		max-width: 430px;
 		height: 770px;
 	}
 	.contact1 .left {
-		width: 50%;
 		width: auto;
 	}
 	.contact1 .right {
-		width: 50%;
-		width: 230px;
+		width: auto;
 		align-items: center;
 	}
 	.contact1 .left img {
 		padding: 0.2px;
 		width: 180px;
+	}
+	.container {
+		width: 200px;
+		align-items: center;
 	}
 }
