@@ -63,3 +63,18 @@ body {
 	margin: 20px;
 	border-radius: 5px;
 }
+@media (max-width: 650px) {
+	.wrapper {
+		position: relative;
+		place-content: center;
+		margin: auto;
+		top: 50px;
+		width: 350px;
+		display: flex;
+	}
+	.wrapper .left img {
+		border-radius: 5px;
+		padding: 0px;
+		width: 180px;
+	}
+}
