@@ -10,11 +10,24 @@ body {
 	font-family: "Montserrat", sans-serif;
 	justify-content: center;
 	align-items: center;
-	min-height: 80vh;
+	min-height: 100vh;
 }
-.film-window {
-	display: grid;
-	margin: auto;
+.main-content {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 100px 0 0;
+}
+.film-frame {
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.25%;
+	position: relative;
+}
+.film-frame iframe {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 56.25%;
 }
 /*------------------------Profile page-------------*/
 .profilehead {
@@ -134,5 +147,7 @@ body {
 	}
 	.headline {
 		font-size: 18px;
+	}
+	.film-frame {
 	}
 }
