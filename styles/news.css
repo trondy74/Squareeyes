@@ -12,6 +12,10 @@ body {
 	align-items: center;
 	min-height: 80vh;
 }
+.film-window {
+	display: grid;
+	margin: auto;
+}
 /*------------------------Profile page-------------*/
 .profilehead {
 	display: block;
