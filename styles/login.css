@@ -31,20 +31,20 @@ body {
 
 .subheading {
 	margin-top: 0;
-	font-size: 26px;
+	font-size: 20px;
 	font-weight: 300;
 }
 .agreement,
-.rememberbox {
+.remember {
 	font-size: 14px;
 }
 
-#signup,
-#login {
+#btn-signup,
+#btn-login {
 	all: unset;
 	cursor: pointer;
 	display: inline-block;
-	background: rgb(5, 151, 13);
+	background: #ffffff;
 	padding: 0.5em 1.75em;
 	color: #000000;
 	font-weight: 300;
@@ -86,12 +86,12 @@ body {
 	margin: 1rem;
 }
 
-.form__label {
+.form label {
 	display: flex;
-	font-size: medium;
+	font-size: 14px;
 }
 
-.form__text {
+.form text {
 	all: unset;
 	display: block;
 	margin: 0.25em 0 1em;
@@ -102,7 +102,7 @@ body {
 	color: black;
 }
 
-.form__checkbox {
+.form checkbox {
 	margin-left: 1.5em;
 	margin-right: 0.5em;
 }
@@ -124,12 +124,5 @@ body {
 	}
 	.title {
 		font-size: 20px;
-	}
-	.subheading {
-		font-size: 20px;
-	}
-	.agreement,
-	.rememberbox {
-		font-size: 12px;
 	}
 }
