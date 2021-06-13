@@ -18,12 +18,12 @@ body {
 }
 .btn-login {
 	position: relative;
-	background-color: #f55a5a;
-	border: 3px solid #5f5b5b;
+	background-color: #f11f1f;
+	border: 3px solid #cf5c5c;
 	color: #ffffff;
 	font-size: 20px;
 	width: 125px;
-	padding: 14px 19px;
+	padding: 14px 30px;
 	cursor: pointer;
 	border-radius: 5px;
 	margin-right: 20px;
@@ -31,8 +31,8 @@ body {
 }
 .btn-producer {
 	position: relative;
-	background-color: #6381eb;
-	border: 3px solid #5f5b5b;
+	background-color: #102d94;
+	border: 3px solid #4f45e0;
 	color: #ffffff;
 	font-size: 20px;
 	padding: 14px 19px;
@@ -46,10 +46,14 @@ body {
 	margin-top: 20px;
 }
 
-.btn-group button:hover {
-	background-color: #bb1e2b;
+.btn-login:hover,
+.btn-login:active {
+	background-color: #c01600f6;
 }
-
+.btn-producer:hover,
+.btn-producer:active {
+	background-color: #180488f6;
+}
 @media (max-width: 650px) {
 	.btn-group button {
 		margin-top: 35px;
