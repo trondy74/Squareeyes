@@ -6,7 +6,7 @@ html {
 }
 
 body {
-	background-color: #000000;
+	background-color: #ffffff;
 	font-family: "Montserrat", sans-serif;
 	justify-content: center;
 	align-items: center;
@@ -99,7 +99,7 @@ body {
 
 /*------------------------end of Profile page-------------*/
 .article {
-	color: white;
+	color: rgb(0, 0, 0);
 	font-family: "Montserrat", sans-serif;
 	margin: -1em auto;
 	padding: 0.5em 1em;

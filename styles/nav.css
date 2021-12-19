@@ -1,15 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,600&display=swap");
 
-html {
-  box-sizing: border-box;
-  font-size: 62.5%;
-  scroll-behavior: smooth;
-}
-
-body {
-  background-color: #000000;
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
   font-family: "Montserrat", sans-serif;
-  min-height: 100vh;
 }
 .navbar {
   display: flex;
@@ -22,8 +17,17 @@ body {
 }
 .logo {
   display: flex;
-  margin-right: 20px;
+  margin-top: 15px;
+  margin-left: 50px;
+  margin-bottom: 55px;
+  width: 130px;
   cursor: pointer;
+}
+
+.sitename {
+  position:absolute;
+  margin-top: 100px;
+  margin-left: 50px;
 }
 
 .navbar-links {
@@ -49,8 +53,8 @@ body {
 
 .navbar-links li:hover,
 .navbar-links.active {
-  background-color: #b11421;
-  border-radius: 5px;
+  text-decoration: underline;
+  text-transform: uppercase;
 }
 
 .toggle-button {
@@ -71,38 +75,46 @@ body {
   background-color: white;
   border-radius: 10px;
 }
-.footer {
-  display: block;
-  place-items: center;
-  left: 0;
+footer{
+  position: block;
+  align-content: center;
   bottom: 0;
-  width: 100%;
+  left: 0;
+  right: 0;
+  background: rgb(0, 0, 0);
   height: 100px;
-  background-color: black;
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  font-size: 10px;
-  text-align: center;
+  width: 100vw;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: rgb(240, 101, 101);
 }
 
 .h2footer {
+  text-align: center;
   font-size: 16px;
-  color: #5b5be7;
+  color: #ffffff;
 }
+.co {
+  text-align: center;
+}
+
 .gotop-btn{
   position: fixed;
   width: 50px;
   height: 50px;
-  background: #ee3131;
-  bottom: 40px;
-  right: 20px;
+  background: #74aef0;
+  bottom: 80px;
+  right: 2px;
   border-radius: 25px;
 
   text-decoration: none;
   text-align: center;
   line-height: 50px;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 22px;
+}
+.mobile-list {
+  display: none;
 }
 
 /*----------------- separating the code -------*/
@@ -112,17 +124,24 @@ body {
     font-size: 16px;
   }
   .logo {
-    margin-left: 5px;
+    margin-left: 15px;
     margin-top: 5px;
     margin-bottom: 15px;
-    width: 200px;
+    width: 110px;
   }
-
+  .sitename {
+    font-size: 20px;
+    margin-top: 90px;
+  }
 @media (max-width: 730px) {
   .logo {
-    margin-left: 5px;
+    margin-left: 15px;
     margin-top: 10px;
-    width: 200px;
+    width: 120px;
+  }
+  .sitename {
+    font-size: 20px;
+    margin-top: 90px;
   }
   .navbar {
     flex-direction: column;
@@ -159,5 +178,27 @@ body {
   .navbar-links.active {
     display: flex;
   }
-  
+  @media only screen and (max-width:560px) {
+
+  .mobile-list {
+    display: block;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+  }
+  .mobile-list li {
+    display: inline;
+    align-self: auto;
+    margin: auto;
+  }
+  .mobile-list li .icon {
+    margin-right: 5px;
+  }
+}
+}
 }
